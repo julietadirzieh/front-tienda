@@ -2,22 +2,6 @@
 
 React JS + Vite APP
 
-## Requirements
-
-Node.js
-
-Use nvm to install node lts/fermium (v14.x) or greater.
-
-```bash
-nvm install lts/fermium
-nvm use lts/fermium
-```
-
-Linter
-We use both eslint and prettier.
-
-Please review VS Code plugins at dev dependencies.
-
 ## Installation
 
 Install npm packages:
