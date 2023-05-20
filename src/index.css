@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", Sans-serif;
+}
+html {
+  background-color: rgb(243 244 246);
+}
+/* Invisible texto */
+.dropdownAccount {
+  display: none;
+  transition: all 0.5s;
+}
+/* Visible texto */
+.dropdown:hover > .dropdownAccount {
+  display: flex;
+  transition: all 0.5s;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: none;
+  width: 2em;
+  text-align: center;
+  font-size: inherit;
+}
